@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+header {
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    flex: 1; /* Makes main take up the remaining space */
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%; /* Adjusted to make the image smaller */
+    height: auto;
+    opacity: 0.2; /* Adjust the opacity to make it fade */
+    z-index: -1; /* Place the image behind the text */
+}
+
+article {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.543); /* Slightly opaque background for better readability */
+    position: relative;
+    z-index: 1;
+}
+
+article h2, article h3 {
+    color: #003366; /* Dark Blue */
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    padding: 0.5rem 0;
+}
+
+.contact address {
+    font-style: normal;
+    line-height: 1.5;
+}
+
+aside {
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 1rem;
+}
+
+aside nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #edb245; /* Dark Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
